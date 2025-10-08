@@ -1,6 +1,6 @@
 -- -----------------------------------------------------
 -- BASE DE DONNÉES TIFOSI
--- Script d'insertion des données de test'
+-- Script d'insertion des données
 -- -----------------------------------------------------
 -- Description : Alimentation de la base de données avec les données
 --               issues des fichiers Exel fournis (marque, boisson,
