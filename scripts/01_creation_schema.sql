@@ -2,9 +2,9 @@
 -- BASE DE DONNÉES TIFOSI
 -- Script de création du schéma et de l'utilisateur
 -- -----------------------------------------------------
--- Auteur : Lamarre Léo
 -- Description : Création de la base de données pour le restaurant Tifosi
---               incluant les tables, contraintes et utilisateur d'administration
+--               incluant les tables, contraintes et utilisateur d'administration.
+--               La majeur partie du code a été générée par le programme MySQL Workbench.
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
@@ -25,7 +25,7 @@ USE tifosi;
 -- CRÉATION DE L'UTILISATEUR TIFOSI
 -- -----------------------------------------------------
 DROP USER IF EXISTS 'tifosi'@'localhost';
-CREATE USER 'tifosi'@'localhost' IDENTIFIED BY 'Tifosi2024!';
+CREATE USER 'tifosi'@'localhost' IDENTIFIED BY 'Tifosi2025!';
 GRANT ALL PRIVILEGES ON tifosi.* TO 'tifosi'@'localhost';
 FLUSH PRIVILEGES; 
 
